@@ -1,0 +1,172 @@
+/* NDL Material Design For Superset */ 
+:root { 
+  --main-blue: #034B64; 
+  --blue-hover: #0A5F7C; 
+  --dark-blue: #022F3E; 
+  --cta-red: #B33A1D; 
+  --red-hover: #8A2A10; 
+  --orange-accent: #D4572A; 
+} 
+ 
+/* HEADER/NAVBAR */ 
+/* HEADER/NAVBAR */ 
+header.top.superset-c99twh { 
+  background: linear-gradient(135deg, #034B64, #022F3E) !important; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important; 
+  height: 72px !important;
+  align-items: center !important;
+  display: flex !important;
+} 
+ 
+header.top.superset-c99twh .ant-menu { 
+  background: transparent !important;
+  line-height: 72px !important;
+  height: 72px !important;
+} 
+
+/* Fix menu items alignment */
+header.top.superset-c99twh .ant-menu-item,
+header.top.superset-c99twh .ant-menu-submenu-title {
+  display: flex !important;
+  align-items: center !important;
+  height: 72px !important;
+  margin: 0 !important;
+  padding: 0 16px !important;
+}
+
+header.top.superset-c99twh .ant-menu-item-selected {
+  background-color: #0A5F7C !important;
+}
+
+/* Remove default bottom border/indicator */
+header.top.superset-c99twh .ant-menu-item::after,
+header.top.superset-c99twh .ant-menu-submenu::after {
+  display: none !important;
+}
+ 
+/* ===== LOGO - RESIZE ===== */
+header.top.superset-c99twh img {
+  height: 48px !important;
+  width: auto !important;
+  vertical-align: middle !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+/*header ends here*/
+ 
+/* BUTTONS */ 
+.ant-btn.ant-btn-primary { 
+  background: #034B64 !important; 
+  border-color: #034B64 !important; 
+  border-radius: 4px !important; 
+  font-weight: 500; 
+} 
+ 
+.ant-btn.ant-btn-primary:hover { 
+  background: #8A2A10 !important; 
+  border-color: #8A2A10 !important; 
+} 
+ 
+/* TABLES */ 
+.ant-table-thead  { 
+  background: linear-gradient(135deg, #034B64, #022F3E) !important; 
+  color: white !important; 
+} 
+ 
+/* ===== CARDS ===== */
+.ant-card-head {
+  background: linear-gradient(135deg, #034B64, #022F3E) !important;
+  color: white !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.ant-card-head-title {
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.ant-card {
+  border-radius: 8px !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+}
+
+.ant-card:hover {
+  box-shadow: 0 4px 6px rgba(2,47,62,0.1) !important;
+}
+
+/* ===== DASHBOARD & CHART TITLES - OCEAN BLUE ===== */
+.dashboard-header h1,
+.dashboard-component-header,
+.slice-header h4,
+.chart-header,
+.dashboard-title,
+h1.title,
+.grid-container .dashboard-component-title,
+.dashboard-component-title,
+.ant-card-body .chart-title,
+.slice_container .chart-title,
+.chart-container .title,
+.explore-title,
+.datasource-title,
+.control-panel-title {
+  color: #034B64 !important;
+  font-weight: 600 !important;
+}
+
+/* Sub-titles and meta info */
+.dashboard-header small,
+.dashboard-component-header small,
+.chart-meta,
+.subtitle {
+  color: #64748B !important;
+}
+ 
+/* SIDEBAR */ 
+.ant-menu-item-selected { 
+  background: linear-gradient(135deg, #034B64, #022F3E) !important; 
+  color: white !important; 
+} 
+ 
+/* TABS */ 
+.ant-tabs-ink-bar { 
+  background: #D4572A !important; 
+  height: 3px !important; 
+} 
+ 
+/* SQL DROPDOWN ONLY */ 
+.ant-menu-submenu.ant-menu-submenu-horizontal .ant-menu-submenu-title { 
+  color: white !important; 
+} 
+ 
+/* LOGIN PAGE */ 
+#app  { 
+  background: linear-gradient(135deg, #034B64, #022F3E) !important; 
+} 
+ 
+.panel { 
+  border-radius: 12px !important; 
+} 
+
+/* Make Dashboard, Charts, Datasets white */ 
+header.top.superset-c99twh .ant-menu-item a { 
+  color: white !important; 
+} 
+ 
+header.top.superset-c99twh .ant-menu-item:hover { 
+  background-color: #0A5F7C !important; 
+}
+
+/* Navbar icons white */
+header.top.superset-c99twh .anticon,
+header.top.superset-c99twh [role="img"],
+header.top.superset-c99twh .ant-menu-submenu-title .anticon-down,
+header.top.superset-c99twh [data-test="new-dropdown-icon"],
+header.top.superset-c99twh [data-test="format-painter"],
+header.top.superset-c99twh .anticon-setting,
+header.top.superset-c99twh .anticon-plus {
+  color: white !important;
+}
