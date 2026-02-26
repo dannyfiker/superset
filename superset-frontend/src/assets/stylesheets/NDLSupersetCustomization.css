@@ -8,15 +8,14 @@
   --orange-accent: #D4572A; 
 } 
  
-/* HEADER/NAVBAR */ 
-/* HEADER/NAVBAR */ 
-header.top.superset-c99twh { 
-  background: linear-gradient(135deg, #034B64, #022F3E) !important; 
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important; 
+/* HEADER/NAVBAR - White to Blue Left to Right */
+header.top.superset-c99twh {
+  background: linear-gradient(90deg, #FFFFFF 0%, #034B64 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
   height: 72px !important;
   align-items: center !important;
   display: flex !important;
-} 
+}
  
 header.top.superset-c99twh .ant-menu { 
   background: transparent !important;
@@ -137,10 +136,11 @@ h1.title,
   height: 3px !important; 
 } 
  
-/* SQL DROPDOWN ONLY */ 
-.ant-menu-submenu.ant-menu-submenu-horizontal .ant-menu-submenu-title { 
-  color: white !important; 
-} 
+/* SQL DROPDOWN ONLY */
+.ant-menu-submenu.ant-menu-submenu-horizontal .ant-menu-submenu-title {
+  color: #1A2E40 !important;
+  font-weight: 600 !important;
+}
  
 /* LOGIN PAGE */ 
 #app  { 
@@ -151,16 +151,17 @@ h1.title,
   border-radius: 12px !important; 
 } 
 
-/* Make Dashboard, Charts, Datasets white */ 
-header.top.superset-c99twh .ant-menu-item a { 
-  color: white !important; 
-} 
+/* Make Dashboard, Charts, Datasets dark for better contrast on light gradient */
+header.top.superset-c99twh .ant-menu-item a {
+  color: #1A2E40 !important; /* dark blue-gray — visible on white and blue */
+  font-weight: 600 !important;
+}
  
 header.top.superset-c99twh .ant-menu-item:hover { 
   background-color: #0A5F7C !important; 
 }
 
-/* Navbar icons white */
+/* Navbar icons dark for better contrast */
 header.top.superset-c99twh .anticon,
 header.top.superset-c99twh [role="img"],
 header.top.superset-c99twh .ant-menu-submenu-title .anticon-down,
@@ -168,5 +169,5 @@ header.top.superset-c99twh [data-test="new-dropdown-icon"],
 header.top.superset-c99twh [data-test="format-painter"],
 header.top.superset-c99twh .anticon-setting,
 header.top.superset-c99twh .anticon-plus {
-  color: white !important;
+  color: #1A2E40 !important;
 }
