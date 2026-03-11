@@ -1,0 +1,11 @@
+/* ===== FIX SQL DROPDOWN MENU ===== */ 
+header.top.superset-c99twh .ant-menu-submenu-title, 
+header.top.superset-c99twh .ant-menu-submenu-horizontal .ant-menu-submenu-title { 
+  color: white !important; 
+} 
+header.top.superset-c99twh .ant-menu-submenu-title .anticon-down { 
+  color: white !important; 
+} 
+header.top.superset-c99twh .ant-menu-submenu.ant-menu-submenu-horizontal { 
+  color: white !important; 
+} 
